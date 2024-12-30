@@ -38,4 +38,7 @@ struct Kundli: Shape {
 
 #Preview {
     Kundli()
+        .stroke(lineWidth: 2)
+        .foregroundStyle(.orange)
+        .padding()
 }

@@ -17,19 +17,6 @@ struct ListingDetailView: View {
             ZStack(alignment: .topLeading) {
                 ListingImageCarouselView()
                     .frame(height: 320)
-                Button {
-                    dismiss()
-                } label: {
-                    Image(systemName: "chevron.left")
-                        .foregroundStyle(.black)
-                        .background {
-                            Circle()
-                                .fill(.white)
-                                .frame(width: 32, height: 32)
-                        }
-                        .padding(32)
-                }
-                
             }
             VStack(alignment: .leading, spacing: 8) {
                 Text("Miami Villa")
@@ -75,7 +62,7 @@ struct ListingDetailView: View {
                     .resizable()
                     .scaledToFill()
                     .frame(width: 64, height: 64)
-                    .clipShape(Circle())
+                    .clipShape(.circle)
                 
             }
             .padding()
@@ -161,6 +148,21 @@ struct ListingDetailView: View {
         }
         .ignoresSafeArea()
         .padding(.bottom, 70)
+        .overlay(alignment: .topLeading) {
+            Button {
+                dismiss()
+            } label: {
+                Image(systemName: "chevron.left")
+                    .foregroundStyle(.black)
+                    .background {
+                        Circle()
+                            .fill(.white)
+                            .frame(width: 32, height: 32)
+                    }
+                    .padding(32)
+                    .padding(.top, -32)
+            }
+        }
         .overlay(alignment: .bottom) {
             VStack {
                Divider()
@@ -194,6 +196,7 @@ struct ListingDetailView: View {
             }
             .background(.white)
         }
+        
         
     }
 }

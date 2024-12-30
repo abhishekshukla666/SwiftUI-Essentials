@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5130F1C42C240BDD00AB3CAA /* TagLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5130F1C32C240BDD00AB3CAA /* TagLayout.swift */; };
+		5130F1C62C24142C00AB3CAA /* TagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5130F1C52C24142C00AB3CAA /* TagView.swift */; };
 		515820942BE8A1650074B2AC /* AirbnbApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515820932BE8A1650074B2AC /* AirbnbApp.swift */; };
 		515820982BE8A1660074B2AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 515820972BE8A1660074B2AC /* Assets.xcassets */; };
 		5158209B2BE8A1660074B2AC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5158209A2BE8A1660074B2AC /* Preview Assets.xcassets */; };
@@ -25,6 +27,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5130F1C32C240BDD00AB3CAA /* TagLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagLayout.swift; sourceTree = "<group>"; };
+		5130F1C52C24142C00AB3CAA /* TagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagView.swift; sourceTree = "<group>"; };
 		515820902BE8A1650074B2AC /* Airbnb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Airbnb.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		515820932BE8A1650074B2AC /* AirbnbApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirbnbApp.swift; sourceTree = "<group>"; };
 		515820972BE8A1660074B2AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -172,6 +176,8 @@
 		515820AA2BE8A1D30074B2AC /* Wishlists */ = {
 			isa = PBXGroup;
 			children = (
+				5130F1C32C240BDD00AB3CAA /* TagLayout.swift */,
+				5130F1C52C24142C00AB3CAA /* TagView.swift */,
 			);
 			path = Wishlists;
 			sourceTree = "<group>";
@@ -291,6 +297,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				515820B62BE8BABE0074B2AC /* ListingDetailView.swift in Sources */,
+				5130F1C42C240BDD00AB3CAA /* TagLayout.swift in Sources */,
 				5165240D2C00476D006C9FEC /* KundliView.swift in Sources */,
 				515820AF2BE8A3B60074B2AC /* ListingItemView.swift in Sources */,
 				516524112C030E8B006C9FEC /* SwiftUIAnimation.swift in Sources */,
@@ -300,6 +307,7 @@
 				515820B42BE8B9B30074B2AC /* ListingImageCarouselView.swift in Sources */,
 				515820B12BE8B1B90074B2AC /* SearchAndFilterBar.swift in Sources */,
 				5165240B2BFF4A2B006C9FEC /* SwiftUIViewSomeView.swift in Sources */,
+				5130F1C62C24142C00AB3CAA /* TagView.swift in Sources */,
 				5165240F2C020813006C9FEC /* ArcView.swift in Sources */,
 				515820BB2BEA01400074B2AC /* GameListView.swift in Sources */,
 				515820942BE8A1650074B2AC /* AirbnbApp.swift in Sources */,

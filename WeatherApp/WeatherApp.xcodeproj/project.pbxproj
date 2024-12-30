@@ -15,6 +15,7 @@
 		5179C5172C1462DF00F74E83 /* DayForecaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5179C5162C1462DF00F74E83 /* DayForecaseView.swift */; };
 		5179C5192C14633600F74E83 /* DaysForecastCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5179C5182C14633600F74E83 /* DaysForecastCellView.swift */; };
 		5179C51B2C14646B00F74E83 /* WeatherSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5179C51A2C14646B00F74E83 /* WeatherSummaryView.swift */; };
+		51AC42E02C7B84B100E84572 /* WeatherTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AC42DF2C7B84B100E84572 /* WeatherTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		5179C5162C1462DF00F74E83 /* DayForecaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayForecaseView.swift; sourceTree = "<group>"; };
 		5179C5182C14633600F74E83 /* DaysForecastCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysForecastCellView.swift; sourceTree = "<group>"; };
 		5179C51A2C14646B00F74E83 /* WeatherSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherSummaryView.swift; sourceTree = "<group>"; };
+		51AC42DF2C7B84B100E84572 /* WeatherTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 			children = (
 				5179C5202C14655500F74E83 /* SubViews */,
 				5179C5112C145F4900F74E83 /* WeatherView.swift */,
+				51AC42DF2C7B84B100E84572 /* WeatherTabView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -296,6 +299,7 @@
 				5179C4E62C145CDB00F74E83 /* WeatherAppApp.swift in Sources */,
 				5179C51B2C14646B00F74E83 /* WeatherSummaryView.swift in Sources */,
 				5179C5172C1462DF00F74E83 /* DayForecaseView.swift in Sources */,
+				51AC42E02C7B84B100E84572 /* WeatherTabView.swift in Sources */,
 				5179C5122C145F4900F74E83 /* WeatherView.swift in Sources */,
 				5179C5152C1462D100F74E83 /* HourForecastView.swift in Sources */,
 			);
